@@ -1,0 +1,308 @@
+#
+###################################################################################
+#
+B050F03     Station:     KBS
+B050F16     Network:     GE
+B052F03     Location:    10
+B052F04     Channel:     BHZ
+B052F22     Start date:  1999,105,00:00:00
+B052F23     End date:    No Ending Time
+#
+#                  +-----------------------------------+
+#                  |    Response (Poles and Zeros)     |
+#                  |        GE  KBS    10  BHZ         |
+#                  |    04/15/1999 to No Ending Time   |
+#                  +-----------------------------------+
+#
+B053F03     Transfer function type:                A - Laplace transform analog response, in rad/sec
+B053F04     Stage sequence number:                 1
+B053F05     Response in units lookup:              M/S - Velocity in Meters per Second
+B053F06     Response out units lookup:             V - Volts
+B053F07     A0 normalization factor:               +6.00770E+07
+B053F08     Normalization frequency:               +1.00000E+00
+B053F09     Number of zeroes:                      2
+B053F14     Number of poles:                       5
+#              Complex zeroes:
+#              i  real          imag          real_error    imag_error
+B053F10-13     0  +0.00000E+00  +0.00000E+00  +0.00000E+00  +0.00000E+00
+B053F10-13     1  +0.00000E+00  +0.00000E+00  +0.00000E+00  +0.00000E+00
+#              Complex poles:
+#              i  real          imag          real_error    imag_error
+B053F15-18     0  -3.70040E-02  +3.70160E-02  +0.00000E+00  +0.00000E+00
+B053F15-18     1  -3.70040E-02  -3.70160E-02  +0.00000E+00  +0.00000E+00
+B053F15-18     2  -2.51330E+02  +0.00000E+00  +0.00000E+00  +0.00000E+00
+B053F15-18     3  -1.31040E+02  -4.67290E+02  +0.00000E+00  +0.00000E+00
+B053F15-18     4  -1.31040E+02  +4.67290E+02  +0.00000E+00  +0.00000E+00
+#
+#                  +-----------------------------------+
+#                  |      Channel Sensitivity/Gain     |
+#                  |        GE  KBS    10  BHZ         |
+#                  |    04/15/1999 to No Ending Time   |
+#                  +-----------------------------------+
+#
+B058F03     Stage sequence number:                 1
+B058F04     Sensitivity:                           +1.50000E+03
+B058F05     Frequency of sensitivity:              +2.00000E-02
+B058F06     Number of calibrations:                0
+#
+#                  +-----------------------------------+
+#                  |      Response (Coefficients)      |
+#                  |        GE  KBS    10  BHZ         |
+#                  |    04/15/1999 to No Ending Time   |
+#                  +-----------------------------------+
+#
+B054F03     Transfer function type:                D
+B054F04     Stage sequence number:                 2
+B054F05     Response in units lookup:              V - Volts
+B054F06     Response out units lookup:             COUNTS - Digital Counts
+B054F07     Number of numerators:                  0
+B054F10     Number of denominators:                0
+#
+#                  +-----------------------------------+
+#                  |            Decimation             |
+#                  |        GE  KBS    10  BHZ         |
+#                  |    04/15/1999 to No Ending Time   |
+#                  +-----------------------------------+
+#
+B057F03     Stage sequence number:                  2
+B057F04     Input sample rate (HZ):                 5.1200E+03
+B057F05     Decimation factor:                      00001
+B057F06     Decimation offset:                      00000
+B057F07     Estimated delay (seconds):             +0.0000E+00
+B057F08     Correction applied (seconds):          +0.0000E+00
+#
+#                  +-----------------------------------+
+#                  |      Channel Sensitivity/Gain     |
+#                  |        GE  KBS    10  BHZ         |
+#                  |    04/15/1999 to No Ending Time   |
+#                  +-----------------------------------+
+#
+B058F03     Stage sequence number:                 2
+B058F04     Sensitivity:                           +4.19430E+05
+B058F05     Frequency of sensitivity:              +0.00000E+00
+B058F06     Number of calibrations:                0
+#
+#                  +-----------------------------------+
+#                  |           FIR Response            |
+#                  |        GE  KBS    10  BHZ         |
+#                  |    04/15/1999 to No Ending Time   |
+#                  +-----------------------------------+
+#
+B061F03     Stage sequence number:                 3
+B061F04     Response Name:                         QX80XDECI16
+B061F05     Symmetry Code:                         C
+B061F06     Response in units lookup:              COUNTS - Digital Counts
+B061F07     Response out units lookup:             COUNTS - Digital Counts
+B061F08     Number of Coefficients:                32
+#              i  FIR Coefficient
+B061F09     0  -1.09707E-03
+B061F09     1  -9.93327E-04
+B061F09     2  -1.33316E-03
+B061F09     3  -1.70526E-03
+B061F09     4  -2.05384E-03
+B061F09     5  -2.35065E-03
+B061F09     6  -2.57156E-03
+B061F09     7  -2.69373E-03
+B061F09     8  -2.69337E-03
+B061F09     9  -2.54709E-03
+B061F09    10  -2.23115E-03
+B061F09    11  -1.72301E-03
+B061F09    12  -9.99270E-04
+B061F09    13  -3.46562E-05
+B061F09    14  +1.21980E-03
+B061F09    15  +3.11383E-03
+B061F09    16  +6.89755E-03
+B061F09    17  +8.96712E-03
+B061F09    18  +1.23598E-02
+B061F09    19  +1.60748E-02
+B061F09    20  +1.99682E-02
+B061F09    21  +2.39632E-02
+B061F09    22  +2.79916E-02
+B061F09    23  +3.19878E-02
+B061F09    24  +3.58841E-02
+B061F09    25  +3.96135E-02
+B061F09    26  +4.31082E-02
+B061F09    27  +4.63032E-02
+B061F09    28  +4.91314E-02
+B061F09    29  +5.15184E-02
+B061F09    30  +5.33261E-02
+B061F09    31  +5.35984E-02
+#
+#                  +-----------------------------------+
+#                  |            Decimation             |
+#                  |        GE  KBS    10  BHZ         |
+#                  |    04/15/1999 to No Ending Time   |
+#                  +-----------------------------------+
+#
+B057F03     Stage sequence number:                  3
+B057F04     Input sample rate (HZ):                 5.1200E+03
+B057F05     Decimation factor:                      00016
+B057F06     Decimation offset:                      00000
+B057F07     Estimated delay (seconds):             +6.0000E-03
+B057F08     Correction applied (seconds):          +3.0270E-03
+#
+#                  +-----------------------------------+
+#                  |      Channel Sensitivity/Gain     |
+#                  |        GE  KBS    10  BHZ         |
+#                  |    04/15/1999 to No Ending Time   |
+#                  +-----------------------------------+
+#
+B058F03     Stage sequence number:                 3
+B058F04     Sensitivity:                           +1.00000E+00
+B058F05     Frequency of sensitivity:              +0.00000E+00
+B058F06     Number of calibrations:                0
+#
+#                  +-----------------------------------+
+#                  |           FIR Response            |
+#                  |        GE  KBS    10  BHZ         |
+#                  |    04/15/1999 to No Ending Time   |
+#                  +-----------------------------------+
+#
+B061F03     Stage sequence number:                 4
+B061F04     Response Name:                         QX80XDECI4X1
+B061F05     Symmetry Code:                         C
+B061F06     Response in units lookup:              COUNTS - Digital Counts
+B061F07     Response out units lookup:             COUNTS - Digital Counts
+B061F08     Number of Coefficients:                36
+#              i  FIR Coefficient
+B061F09     0  +1.53855E-04
+B061F09     1  +3.12770E-04
+B061F09     2  +4.52861E-04
+B061F09     3  +3.95780E-04
+B061F09     4  -4.84389E-05
+B061F09     5  -9.92496E-04
+B061F09     6  -2.35471E-03
+B061F09     7  -3.78932E-03
+B061F09     8  -4.72855E-03
+B061F09     9  -4.56471E-03
+B061F09    10  -2.93407E-03
+B061F09    11  +7.16545E-06
+B061F09    12  +3.46095E-03
+B061F09    13  +6.13788E-03
+B061F09    14  +6.69753E-03
+B061F09    15  +4.35528E-03
+B061F09    16  -5.88914E-04
+B061F09    17  -6.57815E-03
+B061F09    18  -1.11658E-02
+B061F09    19  -1.18968E-02
+B061F09    20  -7.42773E-03
+B061F09    21  +1.57168E-03
+B061F09    22  +1.22001E-02
+B061F09    23  +2.00547E-02
+B061F09    24  +2.08071E-02
+B061F09    25  +1.21336E-02
+B061F09    26  -4.74761E-03
+B061F09    27  -2.46521E-02
+B061F09    28  -3.95029E-02
+B061F09    29  -4.07417E-02
+B061F09    30  -2.23578E-02
+B061F09    31  +1.65229E-02
+B061F09    32  +7.05056E-02
+B061F09    33  +1.28823E-01
+B061F09    34  +1.78128E-01
+B061F09    35  +2.06351E-01
+#
+#                  +-----------------------------------+
+#                  |            Decimation             |
+#                  |        GE  KBS    10  BHZ         |
+#                  |    04/15/1999 to No Ending Time   |
+#                  +-----------------------------------+
+#
+B057F03     Stage sequence number:                  4
+B057F04     Input sample rate (HZ):                 3.2000E+02
+B057F05     Decimation factor:                      00004
+B057F06     Decimation offset:                      00000
+B057F07     Estimated delay (seconds):             +1.1100E-01
+B057F08     Correction applied (seconds):          +6.4648E-02
+#
+#                  +-----------------------------------+
+#                  |      Channel Sensitivity/Gain     |
+#                  |        GE  KBS    10  BHZ         |
+#                  |    04/15/1999 to No Ending Time   |
+#                  +-----------------------------------+
+#
+B058F03     Stage sequence number:                 4
+B058F04     Sensitivity:                           +1.00000E+00
+B058F05     Frequency of sensitivity:              +0.00000E+00
+B058F06     Number of calibrations:                0
+#
+#                  +-----------------------------------+
+#                  |           FIR Response            |
+#                  |        GE  KBS    10  BHZ         |
+#                  |    04/15/1999 to No Ending Time   |
+#                  +-----------------------------------+
+#
+B061F03     Stage sequence number:                 5
+B061F04     Response Name:                         QX80XDECI2
+B061F05     Symmetry Code:                         C
+B061F06     Response in units lookup:              COUNTS - Digital Counts
+B061F07     Response out units lookup:             COUNTS - Digital Counts
+B061F08     Number of Coefficients:                32
+#              i  FIR Coefficient
+B061F09     0  +2.84880E-04
+B061F09     1  +1.53605E-03
+B061F09     2  +2.94949E-03
+B061F09     3  +2.48944E-03
+B061F09     4  -4.97392E-04
+B061F09     5  -2.78111E-03
+B061F09     6  -7.99809E-04
+B061F09     7  +3.18005E-03
+B061F09     8  +2.68281E-03
+B061F09     9  -2.88342E-03
+B061F09    10  -5.03823E-03
+B061F09    11  +1.32459E-03
+B061F09    12  +7.31891E-03
+B061F09    13  +1.80785E-03
+B061F09    14  -8.72253E-03
+B061F09    15  -6.49492E-03
+B061F09    16  +8.29380E-03
+B061F09    17  +1.22901E-02
+B061F09    18  -5.07334E-03
+B061F09    19  -1.82834E-02
+B061F09    20  -1.77264E-03
+B061F09    21  +2.31033E-02
+B061F09    22  +1.29041E-02
+B061F09    23  -2.48940E-02
+B061F09    24  -2.89909E-02
+B061F09    25  +2.10329E-02
+B061F09    26  +5.16156E-02
+B061F09    27  -6.54238E-03
+B061F09    28  -8.73812E-02
+B061F09    29  -3.62034E-02
+B061F09    30  +1.84223E-01
+B061F09    31  +3.99321E-01
+#
+#                  +-----------------------------------+
+#                  |            Decimation             |
+#                  |        GE  KBS    10  BHZ         |
+#                  |    04/15/1999 to No Ending Time   |
+#                  +-----------------------------------+
+#
+B057F03     Stage sequence number:                  5
+B057F04     Input sample rate (HZ):                 8.0000E+01
+B057F05     Decimation factor:                      00002
+B057F06     Decimation offset:                      00000
+B057F07     Estimated delay (seconds):             +3.9400E-01
+B057F08     Correction applied (seconds):          +3.8150E-01
+#
+#                  +-----------------------------------+
+#                  |      Channel Sensitivity/Gain     |
+#                  |        GE  KBS    10  BHZ         |
+#                  |    04/15/1999 to No Ending Time   |
+#                  +-----------------------------------+
+#
+B058F03     Stage sequence number:                 5
+B058F04     Sensitivity:                           +1.00000E+00
+B058F05     Frequency of sensitivity:              +0.00000E+00
+B058F06     Number of calibrations:                0
+#
+#                  +-----------------------------------+
+#                  |      Channel Sensitivity/Gain     |
+#                  |        GE  KBS    10  BHZ         |
+#                  |    04/15/1999 to No Ending Time   |
+#                  +-----------------------------------+
+#
+B058F03     Stage sequence number:                 0
+B058F04     Sensitivity:                           +6.29140E+08
+B058F05     Frequency of sensitivity:              +2.00000E-02
+B058F06     Number of calibrations:                0

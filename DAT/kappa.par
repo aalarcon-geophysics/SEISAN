@@ -1,0 +1,28 @@
+selection criteria 1: P, 2: S, 3: S from P
+2
+window length, pre window
+7.0 0.0
+number of times to smooth
+0
+frequency band to use
+3.0 16.0 
+maximum distance
+50.0
+response removal: 1: displ., 3: accel. 
+1
+rotate: 0: no, 1: yes
+0
+q0, qalpha
+0.0,0,0
+minimum corr, min s/n ratio
+0.0, 2.0
+stations and components, format a5,1x,a4,1x,a5,1x,a4
+KTK1     Z 
+KTK1     N
+KTK1     E
+ARA0     Z
+ARA0     N
+ARA0     E
+LOF      Z
+LOF      N
+LOF      E

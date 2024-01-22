@@ -1,0 +1,6 @@
+   layer #  start vp  delta vp   # delta   start h   delta h   # delta  start vs  delta vs   # delta st. vp/vs del vp/vs  # delta
+         1       5.6       0.2         4       0.0       1.0         1                                    1.70      0.02        6
+         2       6.4       0.2         3       6.0       2.0         5
+         3       6.9       0.2         5      16.0       2.0         6
+         4      7.80       0.1         5      28.0       2.0         4       
+         4      8.25      0.05         1      50.0       1.0         1     

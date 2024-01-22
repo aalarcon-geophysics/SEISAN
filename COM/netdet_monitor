@@ -1,0 +1,6 @@
+#
+# start monitoring of netdet
+#
+
+xterm -geometry 60x8+120+2 -T "NETDET MONITOR" -e netdet_display $1 &
+

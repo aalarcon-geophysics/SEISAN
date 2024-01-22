@@ -1,0 +1,8 @@
+infile="$1"
+if [ -z "$infile" ]
+then
+    echo You must give an input quakeml xml file as argument 
+else
+    java -jar  $SEISAN_TOP/PRO/nor2qml.jar --convert="s" --version="nordic" --input=$1
+    echo Output Nordic file is sfile.out 
+fi

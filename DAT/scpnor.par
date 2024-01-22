@@ -1,0 +1,120 @@
+#
+#   parameter file for scpnor
+#
+#   KEYWORD identifies the parameter and up to 2 parameters
+#   can be given. They are given in column 41 to 50 and
+#   51 to 60 respectively. Numbers can be anywhere in the
+#   fields but characters must start in 41 or 51
+#   repectively. If blank, a defualt is used.
+#
+KEYWORD............Comments.............Par 1.....Par 2
+#  
+#  
+#######################################
+#......................................
+#
+#   SeisComp version, 3, 4 or 5
+#   4 is default and also works with 5
+#
+#.......................................1.........2........
+SEISCOMP VERSION                        4
+#.......................................xxxxxxxxxxxxxxxxxxx
+#
+#   the network agency and operator, 
+#   3 chars, default SCP and sc
+#
+#.......................................1.........2........        
+AGENCY                                               
+#.......................................xxxxxxxxxxxxxxxxxxx
+#
+# 
+#######################################
+#  parameter for sql data base
+#######################################
+#
+#................................................
+#
+#  sql user name
+#
+#.......................................1.........
+SQL USER                                seiscomp
+#.......................................xxxxxxxxxx
+#          
+# sql password                          
+#
+#.......................................1............................
+SQL PASS                                reg1922scmp
+#.......................................xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#
+# sql data base
+#
+#.......................................1.............................
+SQL DATABASE                            seiscomp  
+#.......................................xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#
+# sql ip number
+#
+#.......................................1............................
+SQL IP                                  localhost
+#.......................................xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#
+# in instant mode, give number of 
+# minutes back from real time (UTC)
+# from which to start data collection
+#
+#.......................................1........
+INSTANT TIME BACK                       1440.0   
+#.......................................xxxxxxxx
+#
+# put 1.0 if making an S-file, else 0.0
+#
+#.......................................1.........
+MAKE SFILE                              1.0
+#.......................................xxxxxxxxxx
+#
+#  base for S-files.
+#  blank     : def base
+#  1-5 letter: data base
+#  ,,        : local data base 
+#  this base is used with instant
+#  operation  where data is added
+#  INSTAT TIME BACK
+#  or for normal operation when
+#  instant is not selected. All
+#  data collected is stored here.
+#
+#|.......................................1.........
+BASE SFILE                              SCP   
+#.......................................xxxxxxxxxx
+#
+# insert ARC line (1.0), default is no 
+# ARC line (blank or 0.0)
+#
+#.......................................1.........
+INSERT ARC LINE                         1.0   
+#.......................................xxxxxxxxxx
+#
+# seiscomp wood anderson gain, default 
+# is 2800 (blank) or 2080 (1.0)
+#
+#.......................................1.........
+WOOD ANDERSON GAIN                      
+#.......................................xxxxxxxxxx
+#
+#  for instant operation only:
+#  second base for S-files where only
+#  s-files for instant tima back are
+#  kept.
+#
+#  blank     : no second base
+#  1-5 letter: data base
+#  ,,        : local data base
+#
+#.......................................1.........
+SECOND BASE SFILE                       SCP2       
+#.......................................xxxxxxxxxx
+#
+#
+#######################################
+#  the end
+########q###############################

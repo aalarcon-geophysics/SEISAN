@@ -1,0 +1,27 @@
+#!/bin/ksh
+#
+# script to map epicenters from the SEISAN netdet program
+# works with GMT - The Generic Mapping Tools, Version 6.1.1
+# (c) 2022 peter voss
+#
+
+cd /home/seismo/netdet 
+
+echo $0 > plot-netdet.log
+date >> plot-netdet.log
+
+echo run seigmt
+printf "hyp.out\n\n0.1\n" | seigmt
+echo done seigmt
+
+AP="-R-100.0/-75.0/5.0/18.0 -JM9c" 
+
+gmt begin netdet_map png
+    gmt coast -Wthinnest -Dl -N1 $AP -B -Slightblue -Glightbrown --FORMAT_GEO_MAP=dddF
+    gmt plot gmtstxy.out -St0.3 -Wthinnest -Gblue
+    gmt plot gmtxy.out  -Sc -Wthinnest -Gred    
+gmt end
+
+echo ------------------------------ >> plot-netdet.log
+
+#EOF
