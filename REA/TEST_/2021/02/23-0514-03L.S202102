@@ -1,0 +1,18 @@
+ 2021 0223 0514 11.3 L  63.741   4.570 40.1  BER  4 1.7 3.8LBER                1
+ GAP=327   BER  4.33      62.5   154.9 97.7  0.6053E+04  0.7752E+04  0.3297E+04E
+ 2021-02-23-0514-03S.NSN___015                                                 6
+ OLDACT:ARG 21-03-09 10:12 OP:pv   STATUS:               ID:20210223051403     3
+ OLDACT:UP  21-03-09 10:13 OP:pv   STATUS:               ID:20210223051403     3
+ ACTION:UP  21-05-21 10:45 OP:ff   STATUS:               ID:20210223051403     I
+ OLDACT:UP  21-03-09 10:17 OP:pv   STATUS:               ID:20210223051403     3
+ STAT COM NTLO IPHASE   W HHMM SS.SSS   PAR1  PAR2 AGA OPE  AIN  RES W  DIS CAZ7
+ MOL  HHZ NS00 IP         0514 36.870              TES pv  93.0-1.8610  199 130 
+ MOL  HHZ NS00  IAML      0515 00.580 1131.9  0.38 TES pv       0.07    199 130 
+ AKN  HHZ NO00 IP         0514 40.570              TES pv  93.0 0.0110  213 144 
+ AKN  HHN NO00 ES         0515 03.180              BER ff  93.0 0.9310  213 144 
+ HYA  HHZ NS00 IP         0514 53.100              TES pv  77.0 1.9710  299 163 
+ HYA  HHZ NS00  BAZ       0514 53.460  328.5  10.9 TES pv       -16.    299 163 
+ HYA  HHZ NS00  IAML      0515 46.950  344.9  0.40 TES pv      -0.07    299 163 
+ SKAR HHZ NS00 IP         0515 02.820      C       TES pv  77.0 0.2710  392 149 
+ SKAR HHN NS00 ES         0515 39.170              BER ff  77.0-1.3210  392 149 
+                                                                                

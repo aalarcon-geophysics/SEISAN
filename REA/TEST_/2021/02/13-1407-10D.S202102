@@ -1,0 +1,22 @@
+ 2021 0213 1407 45.3 D  36.971 142.514 50.0F TES  6 .30 7.0sTES 7.0STES 7.0bTES1
+ GAP=337   TES 0.720     123.8   150.00.000 -0.1714E+05  0.0000E+00  0.0000E+00E
+ 2021 0213 0 0  0    D                       TES        8.1BTES                1
+ 2021-02-13-1407-09S.DNK___006                                                 6
+ OLDACT:UP  21-03-09 10:00 OP:pv   STATUS:               ID:20210213140709     3
+ OLDACT:UP  21-03-09 09:58 OP:pv   STATUS:               ID:20210213140709     3
+ OLDACT:ARG 21-03-09 09:33 OP:pv   STATUS:               ID:20210213140709     3
+ ACTION:UP  21-03-09 10:07 OP:pv   STATUS:               ID:20210213140710d    I
+ OLDACT:DUP 21-03-09 10:04 OP:pv   STATUS:               ID:20210213140710d    3
+ STAT COM NTLO IPHASE   W HHMM SS.SSS   PAR1  PAR2 AGA OPE  AIN  RES W  DIS CAZ7
+ HOMB HHZ NS00 IP         1419 35.830              TES pv                       
+ KBS  BHZ GE10 IP         1417 51.960              TES pv  29.0 0.0610 6768 350 
+ KBS  BHZ GE10  IAmb      1417 58.960 4039.5  1.10 TES pv       0.40   6768 350 
+ KBS  BHZ GE10  IVmB_BB   1418 01.55092682.4  3.20                     6768 350 
+ DAG  BHZ GE   IP         1418 25.140              TES pv  28.0-0.1610 7329 355 
+ KONO LHZ IU10 IP         1419 28.030              TES pv  24.0 0.3210 8470 337 
+ KONO LHZ IU10  IAmb      1419 37.590 1596.3  2.00 TES pv      -0.40   8470 337 
+ KONO LHZ IU10  IVMs_BB   1455 48.04023538.0  18.0 TES pv       0.00   8470 337 
+ KONO LHZ IU10  IAMs_20   1455 51.73065747.8  18.0 TES pv       0.00   8470 337 
+ BSD  HHZ DK   IP         1419 36.990              TES pv  24.0-0.5610 8663 332 
+ MUD  HHZ DK00 IP         1419 43.150              TES pv  23.0 0.3410 8770 336 
+                                                                                
